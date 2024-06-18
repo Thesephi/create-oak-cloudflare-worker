@@ -1,6 +1,6 @@
 # create-oak-cloudflare-worker
 
-Starter template to develop a Cloudflare Worker application with `@oak/oak` and `@dklab/oak-routing-ctrl`.
+Starter template to develop a Cloudflare Workers application with `@oak/oak` and `@dklab/oak-routing-ctrl`.
 
 Read more:
 - [Cloudflare Workers](https://workers.cloudflare.com/)

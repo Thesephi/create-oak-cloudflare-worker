@@ -1,7 +1,7 @@
 {
   "name": "create-oak-cloudflare-worker",
   "description": "npm init template for a Cloudflare Workers application",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./main.js",
   "bin": "./main.js",
   "exports": {
@@ -12,5 +12,14 @@
   },
   "dependencies": {
     "init-package-json": "^6.0.3"
-  }
+  },
+  "keywords": [
+    "oak",
+    "oak-routing-ctrl",
+    "cloudflare",
+    "workers",
+    "typescript",
+    "decorator",
+    "api"
+  ]
 }
