@@ -1,8 +1,16 @@
 {
   "name": "create-oak-cloudflare-worker",
-  "description": "npm init template to develop a Cloudflare Worker module",
-  "version": "0.1.0-alpha.1",
+  "description": "npm init template for a Cloudflare Workers application",
+  "version": "1.0.0",
+  "main": "./main.js",
+  "bin": "./main.js",
+  "exports": {
+    ".": "./main.js"
+  },
   "scripts": {
-    "dry-run": "npm publish --dry-run"
+    "dr": "npm publish --dry-run"
+  },
+  "dependencies": {
+    "init-package-json": "^6.0.3"
   }
 }
