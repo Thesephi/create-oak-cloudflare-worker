@@ -1,3 +1,5 @@
+console.log('scaffolding project in', dirname, '...')
+
 module.exports = {
   "name": prompt("package name", "my-oak-cloudflare-worker", (pgkName) => pgkName),
   "version": prompt("version", "1.0.0", (v) => v),
