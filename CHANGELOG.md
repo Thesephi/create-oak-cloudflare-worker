@@ -1,3 +1,9 @@
+## [1.1.2] - 2024-06-23
+
+### Fixed
+
+- exposed `bin` script in `package.json`
+
 ## [1.1.1] - 2024-06-23
 
 ### Fixed
