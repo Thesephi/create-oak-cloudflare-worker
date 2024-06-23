@@ -1,3 +1,13 @@
+## [1.2.0] - 2024-06-23
+
+### Fixed
+
+- `.npmrc` and `.gitignore` files no longer ignored in scaffolds created from the published package
+
+### Changed
+
+- templated `@dklab/oak-routing-ctrl` version bumped to `v0.7.4`
+
 ## [1.1.2] - 2024-06-23
 
 ### Fixed
