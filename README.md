@@ -10,7 +10,7 @@ Read more:
 # How to use this template
 
 ```bash
-npm create oak-cloudflare-worker
+npm create oak-cloudflare-worker@latest
 ```
 
 # Example Deployment
