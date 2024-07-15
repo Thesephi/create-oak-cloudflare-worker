@@ -1,22 +1,23 @@
 console.log('scaffolding project in', dirname, '...')
 
 module.exports = {
-  "name": prompt("package name", "my-oak-cloudflare-worker", (pgkName) => pgkName),
-  "version": prompt("version", "1.0.0", (v) => v),
-  "description": prompt("description", undefined, (desc) => desc),
-  "author": prompt("author", undefined, (person) => person),
+  "name": yes ? "my-oak-cloudflare-worker" : prompt("package name", "my-oak-cloudflare-worker", (pgkName) => pgkName),
+  "version": yes ? "1.0.0" : prompt("version", "1.0.0", (v) => v),
+  "description": yes ? undefined : prompt("description", undefined, (desc) => desc),
+  "author": yes ? undefined : prompt("author", undefined, (person) => person),
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
+    "test": "vitest"
   },
   "dependencies": {
-    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.7.4",
+    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.8.6",
     "@oak/oak": "npm:@jsr/oak__oak@^16.1.0"
-  }
+  },
+  "devDependencies": {
+    "vitest": "^2.0.2",
+    "wrangler": "^3.64.0"
+  },
 }

@@ -1,3 +1,17 @@
+## [1.3.0] - 2024-07-15
+
+### Added
+
+- sample integration test
+- template code to support OpenAPI Spec serving
+- template test code to cover OpenAPI Spec serving
+- support for `-y` (alternatively: `--yes`, `-f`, `--force`) flag (example: `npm create oak-cloudflare-worker -- -y`)
+
+### Changed
+
+- library upgrades (`@dklab/oak-routing-ctrl@^0.8.6`, `wrangler@^3.64.0`)
+- improved README
+
 ## [1.2.0] - 2024-06-23
 
 ### Fixed
