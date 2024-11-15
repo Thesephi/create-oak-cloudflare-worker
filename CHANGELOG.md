@@ -1,3 +1,9 @@
+## [1.5.1] - 2024-11-15
+
+### Changed
+
+- updated test logic in template
+
 ## [1.5.0] - 2024-11-15
 
 ### Changed
