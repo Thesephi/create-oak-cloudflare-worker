@@ -1,3 +1,9 @@
+## [1.5.2] - 2024-12-20
+
+### Changed
+
+- library upgrades (`@dklab/oak-routing-ctrl@^0.13.0-alpha.2`, `vitest@^2.1.8`, `wrangler@^3.99.0`)
+
 ## [1.5.1] - 2024-11-15
 
 ### Changed
